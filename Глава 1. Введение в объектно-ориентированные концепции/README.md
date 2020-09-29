@@ -9,28 +9,3 @@
 #### Интерфейсы
 В большинстве объектно-ориентированных языков программирования методы, являющиеся частью интерфейсов, определяются как public.
 Интерфейсы содержат определения функций (то есть описание их сигнатур) без их реализации.
-
-```
-
-interface KeyInterface{
-    Open();
-}
-
-class RotaryKey extends KeyInterface{
-    private Insert(),
-    private Turn(),
-    private TakeOut(),
-
-    public Open(){
-        this.Вставить();
-        this.Повернуть();
-        this.Вынуть();
-    }
-}
-
-class MagneticCard  extends KeyInterface{
-
-}
-  
-
-```
